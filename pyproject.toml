@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vgm-downloader"
+version = "0.1.0"
+description = ""
+authors = ["HotariTobu <hotari24tools@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+eyed3 = "^0.9.7"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
